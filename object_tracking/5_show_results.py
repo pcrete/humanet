@@ -297,13 +297,13 @@ if __name__ == "__main__":
             run(video_path = os.path.join(args.video_dir, video_name), 
                 track_path = os.path.join(args.tracks_dir, video_name[:-3]+'csv'),
                 feat_path  = os.path.join(args.feat_dir, video_name[:-3]+'npy'), 
-                save_output = True,
+                save_output = False, # save tracking video 
                 out_dir = args.out_dir,
                 cap_dir = os.path.join(args.cap_dir, video_name[:-4]),
                 concat = args.concat,
                 smoothing = args.smoothing,
-                save_fig = False,
-                is_plot = False)
+                save_fig = False, # save captured people
+                is_plot = False) # subplot of captured people
 
         except FileNotFoundError:
             print(video_name + " has not yet been generated.")
