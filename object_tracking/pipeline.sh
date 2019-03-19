@@ -11,21 +11,33 @@
 # 'PETS09_3.mp4', 'MOT16_08.mp4', 'PETS09_5.mp4',
 # '1_Parking.avi', 'iccv07.mp4']
 
-FILE='PETS09_7.mp4'
+# FILE='retail_1.mp4'
+FILE='1_BEST.mp4'
 
-# python3 1_detection.py --test_video=$FILE
+python3 1_detection.py --test_video=$FILE
 
 # python3 2_generate_features.py --test_video=$FILE
 
 # python3 3_deep_sort.py 
-python3 3_deep_sort.py --test_video=$FILE  --display=True
+# python3 3_deep_sort.py --test_video=$FILE  --display=True
 # python3 3_deep_sort.py --test_video=$FILE
 
 # python3 4_concatenate.py
 # python3 4_concatenate.py --test_video=$FILE
 
-# python3 5_show_results.py --test_video=$FILE --concat=True --smoothing=True
+python3 5_show_results.py --test_video=$FILE --concat=True --smoothing=True --save_output=True 
 # python3 5_show_results.py --test_video=$FILE
 
 # python3 5_show_results.py
-# python3 5_show_results.py --concat=True --smoothing=True
+# python3 5_show_results.py --concat=True --smoothing=True 
+
+# python3 5_show_results.py \
+# --test_video=$FILE \
+# --concat=True \
+# --smoothing=True \
+# --save_output=True \
+# --save_fig=True \
+# --is_plot=True
+
+# generate submission file
+# python3 6_submission.py 

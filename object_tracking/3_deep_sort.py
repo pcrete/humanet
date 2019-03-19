@@ -60,7 +60,7 @@ def run(video_name, video_path, feat_path, track_path, min_confidence,
 
     seq_info = gather_sequence_info(video_name, video_path, feat_path)
     metric = nn_matching.NearestNeighborDistanceMetric("cosine", max_cosine_distance, nn_budget)
-    tracker = Tracker(metric, max_age=30, n_init=5)
+    tracker = Tracker(metric, max_age=50, n_init=5)
     results = []
     cap = cv2.VideoCapture(video_path)
     print('Video Path:', video_path,'\tFeatures:', feat_path)

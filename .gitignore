@@ -1,6 +1,9 @@
-contracking-v1.0/
-data/
-dataset/
-scripts/
-MOT15/
 object_detection/
+tmp/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+object_detection/faster_rcnn_resnet101_coco_11_06_2017/frozen_inference_graph.pb
+object_detection/faster_rcnn_resnet101_coco_11_06_2017/model.ckpt.data-00000-of-00001
+object_detection/faster_rcnn_resnet101_coco_11_06_2017/model.ckpt.index
+object_detection/faster_rcnn_resnet101_coco_11_06_2017/model.ckpt.meta

@@ -281,6 +281,14 @@ def parse_args():
         "--smoothing", help="Show concatenated points",
         default=False, type=bool
     )
+    parser.add_argument(
+        "--save_fig", help="Save captured human",
+        default=False, type=bool
+    )
+    parser.add_argument(
+        "--is_plot", help="Plot captured human",
+        default=False, type=bool
+    )
 
     return parser.parse_args()
 
@@ -297,14 +305,13 @@ if __name__ == "__main__":
             run(video_path = os.path.join(args.video_dir, video_name), 
                 track_path = os.path.join(args.tracks_dir, video_name[:-3]+'csv'),
                 feat_path  = os.path.join(args.feat_dir, video_name[:-3]+'npy'), 
-                save_output = False, # save tracking video 
+                save_output = args.save_output, # save tracking video 
                 out_dir = args.out_dir,
                 cap_dir = os.path.join(args.cap_dir, video_name[:-4]),
                 concat = args.concat,
                 smoothing = args.smoothing,
-                save_fig = False, # save captured people
-                is_plot = False) # subplot of captured people
+                save_fig = args.save_fig, # save captured human
+                is_plot = args.is_plot) # subplot of captured human
 
         except FileNotFoundError:
             print(video_name + " has not yet been generated.")
-
