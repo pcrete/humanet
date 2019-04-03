@@ -14,7 +14,7 @@ def join(df_track):
         if(gap > 1):
             results.append(str(prev_frame_idx)+' -> '+ str(frame_idx))
             currrent_row = np.array(currrent_row)
-            previous_row = np.array(df_track.loc[prev_frame_idx].as_matrix())
+            previous_row = np.array(df_track.loc[prev_frame_idx].values)
             steps = (currrent_row - previous_row) / gap
 
             for i, frame in enumerate(range(prev_frame_idx+1,frame_idx)):

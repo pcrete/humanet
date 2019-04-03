@@ -139,10 +139,10 @@ def savitzky_golay(y, window_size, order, deriv=0, rate=1):
 def golay_filter(df_track, window_size=45, order=5):
     if(len(df_track) <= window_size):
         return df_track
-    df_track[2] = savitzky_golay(df_track[2].as_matrix(), window_size=window_size, order=order, deriv=0, rate=1)
-    df_track[3] = savitzky_golay(df_track[3].as_matrix(), window_size=window_size, order=order, deriv=0, rate=1)
-    df_track[4] = savitzky_golay(df_track[4].as_matrix(), window_size=window_size, order=order, deriv=0, rate=1)
-    df_track[5] = savitzky_golay(df_track[5].as_matrix(), window_size=window_size, order=order, deriv=0, rate=1)
+    df_track[2] = savitzky_golay(df_track[2].values, window_size=window_size, order=order, deriv=0, rate=1)
+    df_track[3] = savitzky_golay(df_track[3].values, window_size=window_size, order=order, deriv=0, rate=1)
+    df_track[4] = savitzky_golay(df_track[4].values, window_size=window_size, order=order, deriv=0, rate=1)
+    df_track[5] = savitzky_golay(df_track[5].values, window_size=window_size, order=order, deriv=0, rate=1)
     return df_track
     
 def poly_interpolate(df_track):
@@ -174,7 +174,7 @@ def smooth(df, smooth_method):
 
     df_smooth = pd.concat(polynomials)
     df_smooth = df_smooth.sort_index()
-    return df_smooth.as_matrix()
+    return df_smootVideoWriterh.values
 
 # ========================================================================================================
 
@@ -187,7 +187,7 @@ def run(video_path, track_path, feat_path, save_output, out_dir, cap_dir, concat
     df = pd.read_csv(track_path, header=None)
 
     if(smoothing): results = smooth(df, smooth_method='golay')
-    else: results = df.as_matrix()
+    else: results = df.values
 
     if(save_fig):
         capture(video_path, cap_dir, results, seq_info, is_plot=is_plot)

@@ -12,18 +12,18 @@
 # '1_Parking.avi', 'iccv07.mp4']
 
 # FILE='retail_1.mp4'
-FILE='1_BEST.mp4'
+FILE='PETS09_0.mp4'
 
 python3 1_detection.py --test_video=$FILE
 
-# python3 2_generate_features.py --test_video=$FILE
+python3 2_generate_features.py --test_video=$FILE
 
 # python3 3_deep_sort.py 
 # python3 3_deep_sort.py --test_video=$FILE  --display=True
-# python3 3_deep_sort.py --test_video=$FILE
+python3 3_deep_sort.py --test_video=$FILE
 
 # python3 4_concatenate.py
-# python3 4_concatenate.py --test_video=$FILE
+python3 4_concatenate.py --test_video=$FILE
 
 python3 5_show_results.py --test_video=$FILE --concat=True --smoothing=True --save_output=True 
 # python3 5_show_results.py --test_video=$FILE

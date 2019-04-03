@@ -8,10 +8,12 @@ Pedestrian Detection and Tracking
 
 FASTER R-CNN: Faster Region-based Convolutional Nueral Networks
 
-[Model](https://drive.google.com/open?id=1vpRwR11djSC_pSMJjNpAPgity-4n9spt) 
+[Model](https://drive.google.com/open?id=1SG_iiRqOOm5RlltH0pzGT3FXXkF7Bdh_) 
+by Tensorflow
 
 >input:
 >output:
+
 ### 2. Object Tracking
 
 DEEPSORT
