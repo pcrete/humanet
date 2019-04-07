@@ -19,7 +19,7 @@ DEEPSORT: Simple Online and Realtime Tracking with a Deep Association Metric
 
 Kalman Filter & Hungarian Algorithm
 
-![](docs/SORT Verti.png)
+![](docs/SORT_Verti.png)
 
 ### 3. Tracking Optimization
 
