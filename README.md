@@ -15,19 +15,24 @@ FASTER R-CNN: Faster Region-based Convolutional Nueral Networks
 
 ### 2. Object Tracking
 
-DEEPSORT
-
-Simple Online and Realtime Tracking with a Deep Association Metric
+DEEPSORT: Simple Online and Realtime Tracking with a Deep Association Metric
 
 Kalman Filter & Hungarian Algorithm
+
+![](docs/SORT Verti.png)
 
 ### 3. Tracking Optimization
 
 Linear Interpolation and Savitzky-Golay Filter
 
+![](docs/Savitzky-Golay Filter.gif)
+
 
 ### 4. Visualization of Human Trajectory
 
+![](docs/reg.png)
+
+![](docs/concat_golay.png)
 
 ## Directory Structure
 ```
