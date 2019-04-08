@@ -1,5 +1,7 @@
 # HumaNet
-> Pedestrian Detection and Tracking: BEST 2018, NSC
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+ Pedestrian Detection and Tracking: BEST 2018, NSC
 
 ## Poster Presentation
 ![Poster](docs/HumaNet-poster.png  "Poster")
