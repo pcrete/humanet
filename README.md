@@ -9,15 +9,13 @@
 ## How it works
 ### 1 .Object Detection
 
-FASTER R-CNN: Faster Region-based Convolutional Nueral Networks
+[Faster R-CNN](https://github.com/tensorflow/models/tree/master/research/object_detection): Faster Region-based Convolutional Nueral Networks
 
-[Faster R-CNN Model](https://drive.google.com/open?id=1SG_iiRqOOm5RlltH0pzGT3FXXkF7Bdh_) by Tensorflow
-
-
+Please download the object detection model file [here](https://drive.google.com/open?id=1SG_iiRqOOm5RlltH0pzGT3FXXkF7Bdh_), and place it to ```./object_detection/faster_rcnn_resnet101_coco_11_06_2017/```
 
 ### 2. Object Tracking
 
-DEEPSORT: Simple Online and Realtime Tracking with a Deep Association Metric
+[Deep SORT](https://github.com/nwojke/deep_sort): Simple Online and Realtime Tracking with a Deep Association Metric
 
 Kalman Filter & Hungarian Algorithm
 
