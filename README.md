@@ -90,15 +90,15 @@ Linear Interpolation and Savitzky-Golay Filter
 
 ## How to run
 * Detection Demo from video
-	- $ ```cd object_detection```
-	- $ ```python3 realtime_detection.py```
+	- ```cd object_detection```
+	- ```python3 realtime_detection.py```
 * Detection Demo from image - running on Jupyter notebook
-	- $ ```cd object_detection```
-	- $ ```jupyter notebook```
+	- ```cd object_detection```
+	- ```jupyter notebook```
 	- Click Object_Detection_Demo.ipynb file from jupyter’s interface
 * Running Whole System via Shell Script
-	- $ ```cd object_tracking```
-	- $ ```./pipeline.sh```
+	- ```cd object_tracking```
+	- ```./pipeline.sh```
 NOTE: After running pipeline.sh output files will be stored at dataset/outputs (Video file) and dataset/captures (Image file)
 
 
