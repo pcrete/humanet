@@ -83,8 +83,8 @@ Linear Interpolation and Savitzky-Golay Filter
 	- Ubuntu 16.04: How to install OpenCV
 	- Install OpenCV3 on Ubuntu
 * Install Python Packages
-	- ```$ cd HumaNet/```
-	- ```$ for req in $(cat requirements.txt); do sudo pip3 install $req; done```
+	- ```cd HumaNet/```
+	- ```for req in $(cat requirements.txt); do sudo pip3 install $req; done```
 * [Plotly](https://plot.ly/python/getting-started/) - Registration and Initialization for Online Plotting 
  
 
