@@ -30,8 +30,10 @@ Linear Interpolation and Savitzky-Golay Filter
 
 ### 4. Visualization of Human Trajectory
 
+Before Optimization
 ![](docs/reg.png)
 
+After Optimization
 ![](docs/concat_golay.png)
 
 ## Directory Structure
