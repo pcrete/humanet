@@ -1,7 +1,7 @@
 # HumaNet
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
- Pedestrian Detection and Tracking
+ > Pedestrian Detection and Tracking
  
 HumaNet is a program that automatically detects and disambiguates humans in a video. HumaNet uses Faster Region-based Convolutional Neural Networks (Faster R-CNN) to detect human entities in a video frame, then trace their movement using Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT) that learn unique characteristics of each individual movement. Savitzky–Golay Filter is used to smooth the trajectories for visualization.
  
