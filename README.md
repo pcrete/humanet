@@ -1,7 +1,11 @@
 # HumaNet
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
- Pedestrian Detection and Tracking: BEST 2018, NSC
+ Pedestrian Detection and Tracking
+ 
+ BEST-2018, National Software Contest (NSC)
+ 
+ Poom Wettayakorn, Mahidol University
 
 ## Poster Presentation
 ![Poster](docs/HumaNet-poster.png  "Poster")
