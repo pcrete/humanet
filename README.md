@@ -3,9 +3,11 @@
 
  Pedestrian Detection and Tracking
  
- BEST-2018, National Software Contest (NSC)
+HumaNet is a program that automatically detects and disambiguates humans in a video. HumaNet uses Faster Region-based Convolutional Neural Networks (Faster R-CNN) to detect human entities in a video frame, then trace their movement using Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT) that learn unique characteristics of each individual movement. Savitzky–Golay Filter is used to smooth the trajectories for visualization.
  
- Poom Wettayakorn, Mahidol University
+Honorable Mention in BEST2018 Human Detection (Open Competition) from "Humanet", National Software Contest (NSC) 2018
+
+Poom Wettayakorn and Asst. Prof. Dr. Suppawong Tuarob (Advisor), [I-IUSKi Lab](https://sites.google.com/mahidol.edu/huski/)
 
 ## Poster Presentation
 ![Poster](docs/HumaNet-poster.png  "Poster")
